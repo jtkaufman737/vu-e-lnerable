@@ -25,17 +25,10 @@ Vue.use(VueRouter)
     }
   },
   {
-    path: '/weatheri',
-    name: 'WeatherInsecure',
-    component: function () {
-      return import(/* webpackChunkName: "about" */ '../views/WeatherInsecure.vue')
-    }
-  },
-  {
     path: '/logini',
     name: 'LoginInsecure',
     component: function () {
-      return import(/* webpackChunkName: "about" */ '../views/WeatherInsecure.vue')
+      return import(/* webpackChunkName: "about" */ '../views/LoginInsecure.vue')
     }
   }
 ]

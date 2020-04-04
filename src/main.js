@@ -4,8 +4,10 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 import 'bulma/css/bulma.css'
+import Prism from 'prismjs';
 
 Vue.config.productionTip = false
+Vue.use(Prism)
 
 new Vue({
   router,
