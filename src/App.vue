@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
+      <router-link class="links" to="/">Weather Home</router-link>|
       <router-link class="links" to="/login">Login Secure</router-link> |
       <router-link class="links" to="/weather">Weather Secure</router-link>|
       <router-link class="links" to="/logini">Login Insecure</router-link>
@@ -12,7 +13,7 @@
 </template>
 
 <style lang="scss">
-h1,h2,h3,h4,h5,h6, label {
+h1,h2,h3,h4,h5,h6  {
   font-family: 'Lobster', cursive;
   color:#047bbf;
 }
@@ -29,7 +30,7 @@ p, li, a {
   font-family: 'Baloo Thambi 2', cursive;
 }
 
-p, div, span {
+p, span {
   margin:2rem;
 }
 
@@ -43,9 +44,14 @@ p::after {
   padding:10px;
 }
 
+body {
+  margin: 0px !important;
+}
+
 div#nav {
   width:100%;
   float:right;
+  padding-left:3rem;
 }
 
 div#nav::after {
@@ -53,13 +59,16 @@ div#nav::after {
 }
 
 div#app {
-  margin:10%;
-  height:90vh;
-  width:70vw;
-  margin:auto;
+  height:100vh;
+  width:100vw;
+  margin:0px !important;
 }
 
 h1 {
   font-size:3rem !important;
+}
+
+h6 {
+  font-size:2rem !important;
 }
 </style>

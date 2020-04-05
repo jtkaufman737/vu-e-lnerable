@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="weatherHome">
     <h1>Welcome to vu(e)lnerable</h1>
     <p> This site was created to demonstrate the <a href="https://cwe.mitre.org/top25/archive/2019/2019_cwe_top25.html">
       Common Weakness Enumeration Top 25 Software Vulnerabilities</a> vulnerability <em>Inclusion of Functionality from
@@ -38,7 +38,14 @@ export default {
 
 </script>
 <style>
+div#weatherHome {
+  height:90vh;
+  width:70vw;
+  margin:auto;
+  padding-top:7rem;
+}
+
 p {
-  margin:1.5rem !important;
+  margin:1rem !important;
 }
 </style>
