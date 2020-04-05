@@ -78,6 +78,10 @@ label {
   margin:.5rem;
 }
 
+button {
+  width:250px;
+}
+
 input {
   margin:.5rem;
   height:35px;

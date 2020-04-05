@@ -4,7 +4,10 @@
       <router-link class="links" to="/">Weather Home</router-link>|
       <router-link class="links" to="/login">Login Secure</router-link> |
       <router-link class="links" to="/weather">Weather Secure</router-link>|
-      <router-link class="links" to="/logini">Login Insecure</router-link>
+      <router-link class="links" to="/logini">Login Insecure</router-link>|
+      <router-link class="links" to="/fileDownloadHome">Code Download Home</router-link>|
+      <router-link class="links" to="/fileDownload">Code Download Secure</router-link>|
+      <router-link class="links" to="/fileDownloadi">Code Download Insecure</router-link>
       <br/><br/>
 
     </div>

@@ -31,7 +31,29 @@ Vue.use(VueRouter)
     component: function () {
       return import(/* webpackChunkName: "about" */ '../views/LoginInsecure.vue')
     }
+  },
+  {
+    path: '/fileDownloadHome',
+    name: 'LoginInsecure',
+    component: function () {
+      return import(/* webpackChunkName: "about" */ '../views/FileDownloadHome.vue')
+    }
+  },
+  {
+    path: '/fileDownloadi',
+    name: 'LoginInsecure',
+    component: function () {
+      return import(/* webpackChunkName: "about" */ '../views/FileDownloadInsecure.vue')
+    }
+  },
+  {
+    path: '/fileDownload',
+    name: 'FileDownload',
+    component: function () {
+      return import(/* webpackChunkName: "about" */ '../views/FileDownloadSecure.vue')
+    }
   }
+
 ]
 
 const router = new VueRouter({
