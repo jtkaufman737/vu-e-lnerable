@@ -39,7 +39,6 @@ export default {
     return {
       varOne: process.env.VUE_APP_EXAMPLE_VAR_ONE,
       varTwo: process.env.VUE_APP_EXAMPLE_VAR_TWO,
-      process: process.env
     }
   },
   methods: {
