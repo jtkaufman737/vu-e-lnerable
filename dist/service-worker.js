@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.b0f7d2a4516dbeff3725fa16af701b03.js"
+  "/precache-manifest.43252074533a42b5381c59a888245038.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vuelnerable"});

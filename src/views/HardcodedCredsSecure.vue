@@ -2,7 +2,7 @@
   <div id="hardcodedCredsSecure">
     <h1>Hardcoded Credentials (Secure Alternative)</h1>
     <p>At a certain point, credentials are generally hardcoded <em>somewhere</em>. So what you can do as a developer to ensure that
-    wherever they live, they aren't <strong>exploitable</strong>is by using environment files, and gitignoring them.
+    wherever they live, they aren't <strong>exploitable</strong> is by using environment files, and gitignoring them.
     Git is a version control tool that can be connected to repository hosting solutions such as Bitbucket, Github, or Gitlab. Although
     each of those hosting options has private repositories, it can be simpler to never have credentials enter a repository at all.</p>
     <p> How do we do that, you may ask? Through <strong>gitignore</strong>. Gitignore is a very simple but powerful concept. It isn't hard
@@ -25,7 +25,8 @@
    <div class="modal" id="envModal">
      <div class="modal-background"></div>
      <div class="modal-content">
-       Oh look! Some env variable values: {{ varOne }} {{ varTwo }}
+       Oh look! Some env variable values: {{ varOne }},{{ varTwo }}
+       {{ process.env }}
      </div>
      <button class="modal-close is-large" aria-label="close" @click="closeModal()"></button>
    </div>
