@@ -26,7 +26,7 @@
      <div class="modal-background"></div>
      <div class="modal-content">
        Oh look! Some env variable values: {{ varOne }},{{ varTwo }}
-       {{ process.env }}
+       {{ process }}
      </div>
      <button class="modal-close is-large" aria-label="close" @click="closeModal()"></button>
    </div>
@@ -38,7 +38,8 @@ export default {
   data() {
     return {
       varOne: process.env.VUE_APP_EXAMPLE_VAR_ONE,
-      varTwo: process.env.VUE_APP_EXAMPLE_VAR_TWO
+      varTwo: process.env.VUE_APP_EXAMPLE_VAR_TWO,
+      process: process.env
     }
   },
   methods: {
