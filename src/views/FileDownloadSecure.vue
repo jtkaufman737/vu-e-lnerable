@@ -40,10 +40,6 @@ export default {
       }
 
       // validation logic for pass/fail criteria
-      console.log('DOES CONTAIN ALLOWED TABLES')
-      console.log(this.config.includes(allowedTables))
-      console.log('DOES CONTAIN ALLOWED HOSTS')
-      console.log(this.config.includes(allowedDbHosts))
       if(!this.config.includes(allowedTables) || !this.config.includes(allowedDbHosts)) {
         if(this.message.toLowerCase().includes('success')) {
           this.message = 'ERROR - This config is missing an approved host or destination table.\n\n'

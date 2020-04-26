@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "export $(cat .env | xargs) && vue-cli-service serve",
+    "build": "export $(cat .env | xargs) && vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint"
@@ -12,6 +12,8 @@
   "dependencies": {
     "axios": "^0.19.2",
     "bulma": "^0.8.1",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
     "marked": "^0.8.2",
     "nodejs": "0.0.0",
     "prism": "^4.1.2",

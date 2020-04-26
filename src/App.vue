@@ -1,13 +1,21 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link class="links" to="/">Weather Home</router-link>|
-      <router-link class="links" to="/login">Login Secure</router-link> |
+      <router-link class="links" to="/home">Home</router-link>|
+      <!-- <router-link class="links" to="/weatherhome">Weather Home</router-link>|
       <router-link class="links" to="/weather">Weather Secure</router-link>|
+      <router-link class="links" to="/login">Login Secure</router-link> |
       <router-link class="links" to="/logini">Login Insecure</router-link>|
       <router-link class="links" to="/fileDownloadHome">Code Download Home</router-link>|
       <router-link class="links" to="/fileDownload">Code Download Secure</router-link>|
-      <router-link class="links" to="/fileDownloadi">Code Download Insecure</router-link>
+      <router-link class="links" to="/fileDownloadi">Code Download Insecure</router-link> -->
+      <router-link class="links" to="/hardcode">Hardcoded Creds Home</router-link>|
+      <router-link class="links" to="/hardcodei">Hardcoded Creds Weakness</router-link>|
+      <router-link class="links" to="/hardcodes">Hardcoded Creds Mitigation</router-link>|
+      <router-link class="links" to="/encrypt">Missing Encryption Home</router-link>|
+      <router-link class="links" to="/encrypti">Missing Encryption Weakness</router-link>|
+      <router-link class="links" to="/encrypts">Missing Encryption Mitigation</router-link>
+
       <br/><br/>
 
     </div>
