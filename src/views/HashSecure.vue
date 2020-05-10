@@ -2,7 +2,7 @@
   <div id="hashSecure">
     <h1>Hash Secure</h1>
     <p>This time we are going to make a couple of changes to avoid the security risk posed in our Insecure example. We are again going to use
-      the crypto-js library found<a href="https://www.npmjs.com/package/crypto-js">here</a>.</p>
+      the crypto-js library found <a href="https://www.npmjs.com/package/crypto-js">here</a>.</p>
     <p>
       In addition to this time using hash salt, as noted towards the end of the MITRE CWE explanation of this vulnerability:
     </p>

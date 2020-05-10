@@ -8,7 +8,7 @@
     <p v-if="attempts > 10"><strong>What happened in this case? Our emulated bot is still attacking, but the software contains a lock mechanism if too many failed
     login attempts are conducted at the same time. The script could contain a countermeasure to open the same tab in the new browser and run again, but again it would
     be disabled at 10. So while it might not perfectly disable an automated brute force attack, it would significantly slow or disrupt it. And unlimited time and compute
-    is what lets brute force attacks succeed. Slowing and impeding them actually might be more helpful than you'd thing, even though its a pretty simple step.</strong>
+    is what lets brute force attacks succeed. Slowing and impeding them actually might be more helpful than you'd think, even though its a pretty simple step.</strong>
     <div class="block">
       <p v-if="attempts > 10">This account has been locked due to suspicious activity. Please try again later.</p>
       <label>Username:</label>
