@@ -60,48 +60,90 @@ Vue.use(VueRouter)
   //     return import(/* webpackChunkName: "about" */ '../views/FileDownloadSecure.vue')
   //   }
   // },
+  // {
+  //   path: '/hardcode',
+  //   name: 'HardcodeHome',
+  //   component: function () {
+  //     return import(/* webpackChunkName: "about" */ '../views/HardcodedCredsHome.vue')
+  //   }
+  // },
+  // {
+  //   path: '/hardcodei',
+  //   name: 'HardcodeCredsInsecure',
+  //   component: function () {
+  //     return import(/* webpackChunkName: "about" */ '../views/HardcodedCredsInsecure.vue')
+  //   }
+  // },
+  // {
+  //   path: '/hardcodes',
+  //   name: 'HardcodeCredsSecure',
+  //   component: function () {
+  //     return import(/* webpackChunkName: "about" */ '../views/HardcodedCredsSecure.vue')
+  //   }
+  // },
+  // {
+  //   path: '/encrypt',
+  //   name: 'MissingEncryptionHome',
+  //   component: function() {
+  //     return import(/* webpackChunkName: "about" */ '../views/MissingEncryptionHome.vue')
+  //   }
+  // },
+  // {
+  //   path: '/encrypti',
+  //   name: 'MissingEncryptionInsecure',
+  //   component: function() {
+  //     return import(/* webpackChunkName: "about" */ '../views/MissingEncryptionInsecure.vue')
+  //   }
+  // },
+  // {
+  //   path: '/encrypts',
+  //   name: 'MissingEncryptionSecure',
+  //   component: function() {
+  //     return import(/* webpackChunkName: "about" */ '../views/MissingEncryptionSecure.vue')
+  //   }
+  // }
   {
-    path: '/hardcode',
-    name: 'HardcodeHome',
-    component: function () {
-      return import(/* webpackChunkName: "about" */ '../views/HardcodedCredsHome.vue')
+    path: '/hash',
+    name: 'HashHome',
+    component: () => {
+      return import('../views/HashHome.vue')
     }
   },
   {
-    path: '/hardcodei',
-    name: 'HardcodeCredsInsecure',
-    component: function () {
-      return import(/* webpackChunkName: "about" */ '../views/HardcodedCredsInsecure.vue')
-    }
-  },
-  {
-    path: '/hardcodes',
-    name: 'HardcodeCredsSecure',
-    component: function () {
-      return import(/* webpackChunkName: "about" */ '../views/HardcodedCredsSecure.vue')
-    }
-  },
-  {
-    path: '/encrypt',
-    name: 'MissingEncryptionHome',
+    path: '/hashs',
+    name: 'HashSecure',
     component: function() {
-      return import(/* webpackChunkName: "about" */ '../views/MissingEncryptionHome.vue')
+      return import(/* webpackChunkName: "about" */ '../views/HashSecure.vue')
     }
   },
   {
-    path: '/encrypti',
-    name: 'MissingEncryptionInsecure',
+    path: '/hashi',
+    name: 'HashInsecure',
     component: function() {
-      return import(/* webpackChunkName: "about" */ '../views/MissingEncryptionInsecure.vue')
+      return import(/* webpackChunkName: "about" */ '../views/HashInsecure.vue')
     }
   },
   {
-    path: '/encrypts',
-    name: 'MissingEncryptionSecure',
+    path: '/loginAttempt',
+    name:'LoginAttemptHome',
     component: function() {
-      return import(/* webpackChunkName: "about" */ '../views/MissingEncryptionSecure.vue')
+      return import('../views/LoginAttemptHome.vue')
     }
-  }
+  },
+  {
+    path: '/loginAttempts',
+    name: 'LoginAttemptSecure',
+    component: function() {
+      return import(/* webpackChunkName: "about" */ '../views/LoginAttemptSecure.vue')
+    }
+  },
+  {
+    path: '/loginAttempti',
+    name: 'LoginAttemptInsecure',
+    component: function() {
+      return import(/* webpackChunkName: "about" */ '../views/LoginAttemptInsecure.vue')
+    }
+  },
 ]
 
 const router = new VueRouter({

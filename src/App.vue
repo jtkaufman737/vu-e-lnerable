@@ -9,12 +9,18 @@
       <router-link class="links" to="/fileDownloadHome">Code Download Home</router-link>|
       <router-link class="links" to="/fileDownload">Code Download Secure</router-link>|
       <router-link class="links" to="/fileDownloadi">Code Download Insecure</router-link> -->
-      <router-link class="links" to="/hardcode">Hardcoded Creds Home</router-link>|
+      <!-- <router-link class="links" to="/hardcode">Hardcoded Creds Home</router-link>|
       <router-link class="links" to="/hardcodei">Hardcoded Creds Weakness</router-link>|
       <router-link class="links" to="/hardcodes">Hardcoded Creds Mitigation</router-link>|
       <router-link class="links" to="/encrypt">Missing Encryption Home</router-link>|
       <router-link class="links" to="/encrypti">Missing Encryption Weakness</router-link>|
-      <router-link class="links" to="/encrypts">Missing Encryption Mitigation</router-link>
+      <router-link class="links" to="/encrypts">Missing Encryption Mitigation</router-link> -->
+      <router-link class="links" to="/hash">Hash Home</router-link>|
+      <router-link class="links" to="/hashi">Hash Insecure</router-link>|
+      <router-link class="links" to="/hashs">Hash Secure</router-link>|
+      <router-link class="links" to="loginAttempt">Login Attempt Home</router-link>|
+      <router-link class="links" to="/loginAttempti">Login Attempts Insecure</router-link>|
+      <router-link class="links" to="/loginAttempts">Login Attempts Secure</router-link>
 
       <br/><br/>
 
