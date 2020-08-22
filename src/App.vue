@@ -2,8 +2,8 @@
   <div id="app">
     <div id="nav">
       <router-link class="links" to="/home">Home</router-link>|
-      <router-link class="links" to="/weatherhome">Weather Home</router-link>|
-      <router-link class="links" to="/weather">Weather Secure</router-link>|
+      <!-- <router-link class="links" to="/weatherhome">Weather Home</router-link>|
+      <router-link class="links" to="/weather">Weather Secure</router-link>| -->
       <router-link class="links" to="/login">Login Secure</router-link> |
       <router-link class="links" to="/logini">Login Insecure</router-link>|
       <router-link class="links" to="/fileDownloadHome">Code Download Home</router-link>|
